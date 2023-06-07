@@ -1,0 +1,7 @@
+O(1) = do not take time
+O(N) = max is 10 ^ 7 // normally rising
+O(logN) = max is 10 ^ 18  // will be increased by dividing or multiplying
+O(sqrtN) = max is 10 ^ 7 // increasing until sqrt(n)
+O(N ^ 2) = max is 10 ^ 3 // normal nested loop
+O(N * M) = max is 10 ^ 3 // nested loop
+O(Nlog(N)) = max is 10 ^ 5 if "1s" if "2s" it will be N = 10^6
