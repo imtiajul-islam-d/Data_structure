@@ -24,12 +24,23 @@ int main()
     // cout << v.back();
     // cout << v[0];
     // cout << v.front();  // it will take more time than 25 no line
-    vector<int> v = {1, 7, 3, 4};
-    // vector<int>::iterator findingPointer;
-    for (auto findingPointer = v.begin(); findingPointer < v.end(); findingPointer++)
+    // vector<int> v = {1, 7, 3, 4};
+    // // vector<int>::iterator findingPointer;
+    // for (auto findingPointer = v.begin(); findingPointer < v.end(); findingPointer++)
+    // {
+    //     cout << * findingPointer << " ";
+    // }
+    // vector<int> v = {1, 2, 3, 4};
+    // // v.resize(2);
+    // // v.resize(4);
+    // v.insert(v.begin() +3, 20);
+    // cout << v[3];
+    vector<int> v = {1, 2, 3, 4, 5};
+    v.erase(v.begin() + 2, v.end());
+    for (int i : v)
     {
-        cout << * findingPointer << " ";
+        cout << i;
     }
-    
+
     return 0;
 }
